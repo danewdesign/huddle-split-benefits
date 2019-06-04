@@ -1,3 +1,15 @@
+@media screen and (min-width: 1198px) {
+   .second-header-container {margin-top: 75px;}
+   .bottom-grow p {width: 70%;)
+   .bottom-flowing p {width: 70%;}
+   .bottom-your-users p {width: 70%;}
+   .ready-to-build-popout {width: 40%;}
+   .footer {grid-column-template: 30% auto auto auto;}
+   .logo-n-contact {margin: auto;}
+   .first-links {margin: auto;}
+   .second-links {margin: auto;}
+}
+
 /******************* General Body *****************/
 * {
   box-sizing: border-box;
