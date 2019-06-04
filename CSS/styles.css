@@ -1,0 +1,243 @@
+/******************* General Body *****************/
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+
+
+/***************** Headings ****************/
+/**** Logo Header ****/
+.header-container {
+  background-color: hsl(193, 100%, 96%);
+  display: block;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.mobile-bg {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 80px;
+}
+
+.desktop-bg {
+  display: none;
+}
+
+.logo-header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.logo {
+  max-width: 55%;
+  height: auto;
+  z-index: 1;
+}
+
+.logo-header a {
+  background-color: white;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px 6px hsl(208, 11%, 55%);
+  color: black;
+  font-size: 0.9rem;
+  padding: 6px 30px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.logo-header a:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+/**** Second Header ****/
+.second-header-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top-second-header {
+  margin: 70px 50px 70px 65px;
+  z-index: 1;
+}
+
+.top-second-header h1 {
+  font-size: 1.6rem;
+}
+
+.get-started {
+  background-color: hsl(322, 100%, 66%);
+  border: solid 1px;
+  border-color: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  box-shadow: 2px 2px 6px hsl(208, 11%, 55%);
+  color: white;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 10px 60px;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.bottom-second-header {
+  z-index: 1;
+}
+
+.mockups {
+  max-width: 80%;
+  height: auto;
+}
+
+/********************* CONTENT ************************/
+.flex-content-container {
+  display: block;
+  text-align: center;
+}
+
+.grow-container {
+  background-color: white;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(128, 141, 153,0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 70px 20px 15px 20px;
+}
+
+.top-grow {
+  margin: 70px 30px 50px 30px;
+}
+
+.img-grow-together {
+  max-width: 80%;
+  height: auto;
+}
+
+.bottom-grow {
+  margin: 0 30px 20px 30px;
+}
+
+.flowing-container {
+  background-color: white;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(128, 141, 153,0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px 15px 20px;
+}
+
+.top-flowing {
+  margin: 70px 30px 50px 30px;
+}
+
+.img-flowing {
+  max-width: 80%;
+  height: auto;
+}
+
+.bottom-flowing {
+  margin: 0 45px 20px 45px;
+}
+
+.your-users-container {
+  background-color: white;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(128, 141, 153,0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px 15px 20px;
+}
+
+.top-your-users {
+  margin: 70px 30px 50px 30px;
+}
+
+.img-your-users {
+  max-width: 80%;
+  height: auto;
+}
+
+.bottom-your-users {
+  margin: 0 50px 20px 50px;
+}
+
+.ready-bg {
+  background: linear-gradient(to top, hsl(192, 100%, 9%) 0%, hsl(192, 100%, 9%) 50%, white 50%, white 100%);
+}
+
+.ready-to-build-popout {
+  background-color: white;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(128, 141, 153,0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 200px 20px 0 20px;
+  padding: 30px 15px 50px 15px;
+  text-align: center;
+}
+
+.get-started-two {
+  background-color: hsl(322, 100%, 66%);
+  border: solid 1px;
+  border-color: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  box-shadow: 2px 2px 6px hsl(208, 11%, 55%);
+  color: white;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 10px auto 0 auto;
+  padding: 10px 60px;
+  text-decoration: none;
+  width: 65%;
+}
+
+.get-started-two:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+
+/****************** Footer *********************/
+.logo-n-contact {
+  margin: 10px;
+}
